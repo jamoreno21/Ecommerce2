@@ -26,6 +26,7 @@ const Instruments = (props) => {
                 Price={instrument.price}
                 key={instrument.ID}
                 Source={instrument.source}
+                filter = {1}
             />
         )
     })

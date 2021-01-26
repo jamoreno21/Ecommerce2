@@ -3,11 +3,12 @@ import Instruments from '../../../Components/Instruments/Instruments';
 import classes from '../Products/Products.module.css'
 import database from '../../../Components/External/External'
 import Auxiliry from '../../../../src/hoc/Auxilliary'
+import Filter from '../../../Components/Filter/Filter'
 
 class Products extends Component {
     state = {
-        items: database.products
-        // filter: null 
+        items: database.products,
+        filter: null 
     }
         filterHandler = (type) =>{
             switch(type){
@@ -17,7 +18,7 @@ class Products extends Component {
                 case '2':
                     this.setState({filter : '2' })
                     break;
-                defualt: 
+                default: 
                     break;
             } 
         }
@@ -27,7 +28,8 @@ class Products extends Component {
             return (
                 <Auxiliry>
                     <div className={classes.ProductsGrid}>
-                        <div className={classes.Filter}></div>
+                        <Filter change = {this.filterHandler} className = {classes.Filter}/>
+                        {/* <div className={classes.Filter}></div> */}
                         <Instruments Data={this.state.items} />
                         <div className={classes.ItemSummary}>Cart </div>
                     </div>

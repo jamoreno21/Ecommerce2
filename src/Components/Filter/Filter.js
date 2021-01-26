@@ -2,7 +2,7 @@
 import React from 'react';
 import classes from './Filter.module.css'
 
-const filter =(props) => (
+const Filter =(props) => (
 
     <div>
         <label>Sort by: </label>
@@ -17,4 +17,4 @@ const filter =(props) => (
 );
 
 
-export default filter;
+export default Filter;
