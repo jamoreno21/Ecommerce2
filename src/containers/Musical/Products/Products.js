@@ -18,6 +18,12 @@ class Products extends Component {
                 case '2':
                     this.setState({filter : '2' })
                     break;
+                case '3': 
+                    this.setState({filter: '3' })
+                    break;
+                case '4':
+                    this.setState({filter : '4' })
+                    break;
                 default: 
                     break;
             } 
@@ -30,7 +36,7 @@ class Products extends Component {
                     <div className={classes.ProductsGrid}>
                         <Filter change = {this.filterHandler} className = {classes.Filter}/>
                         {/* <div className={classes.Filter}></div> */}
-                        <Instruments Data={this.state.items} />
+                        <Instruments filter = {this.state.filter} Data={this.state.items} />
                         <div className={classes.ItemSummary}>Cart </div>
                     </div>
                 </Auxiliry>

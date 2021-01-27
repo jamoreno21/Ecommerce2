@@ -2,84 +2,84 @@
     {
         "name" : "Ukelele",
         "price": 51.99,
-        "description": "yur",
+        "description": "The ukulele, is a versatile instrument, and it is often used and heard in a broad range of musical genres, including jazz, country music, pop, world music, and rock.",
         "ID": 1,
         "source": "https://cdn.shopify.com/s/files/1/1150/3636/products/website_instruments-08-02.jpg?v=1584393"
     },
     {
     "name" : "Autistic Guitar",
         "price": 130.99,
-        "description": "yur",
+        "description": "yurrrrr",
         "ID": 2,
         "source": "https://images-na.ssl-images-amazon.com/images/I/81itdej9OJL._AC_SL1500_.jpg"
     },
     {
     "name" : "Autistic Bass",
         "price": 132.99,
-        "description": "",
+        "description": "uhhh",
         "ID": 3,
         "source": "https://numusician.com/wp-content/uploads/2019/12/DAngelico-Premier-Series-Mott-Acoustic-Bass.jpg"
     },
     {
     "name" : "Banjo",
         "price": 169.99,
-        "description": "yur",
+        "description": "mfff uhhhhhhhh",
         "ID": 4,
         "source": "https://banjo.com/wp-content/uploads/2017/04/nechville-vintage-banjo.jpg"
     },
     {
     "name" : "Viola",
         "price": 119.99,
-        "description": "yur",
+        "description": "A stringed musical instrument, the tenor of the violin family. It is built in proportions similar to those of the violin but has a body length of 37 to 43 cm (14.5 to 17 inches), about 5 cm (2 inches) longer than a violin.",
         "ID": 5,
         "source": "https://cdn.shopify.com/s/files/1/2966/4646/products/Glasser4_500x.jpg?v=1545423012"
     },
     {
     "name" : "Violin",
         "price": 99.99,
-        "description": "yur",
+        "description": "The violin is a string instrument which has four strings and is played with a bow. The violin is the smallest and highest pitched string instrument typically used in western music.",
         "ID": 6,
         "source": "https://images.squarespace-cdn.com/content/v1/5a85b1c74c0dbf01b78b3e77/1570109468306-HNQ8N4RK8KRJOQOIKIET/ke17ZwdGBToddI8pDm48kPaBy0iptFoCES5DAyC-kh17gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mxU0godxi02JM9uVemPLqwJlYbJ1eMMVbpVysalldiz7IguY8OnH0t3z7Z0e8W3tQ/violin-and-bow-PZ7T2SP.jpg?format=500w"
     },
     {
     "name" : "Cello",
         "price": 268.99,
-        "description": "yur",
+        "description" : "The cello is a stringed instrument between the viola and bass in pitch, and is also used as a solo instrument, ensemble member, and part of the strings section of an orchestra",
         "ID": 7,
         "source": "https://cdn.britannica.com/s:700x500/70/129670-050-01FEC5FE/Cello.jpg"
     },
     {
     "name" : "Double Bass",
         "price": 549.99,
-        "description": "yur",
+        "description": "The lowest-pitched member of the violin family, sounding an octave lower than the cello. It varies considerably in size, the largest normally being under 6 feet (1.8 metres) in total length.",
         "ID": 8,
         "source": "https://cdn.mos.cms.futurecdn.net/d526a3fbb7c860ec776c1fdbe7177828.jpg"
     },
     {
     "name" : "Harp",
         "price": 44.99,
-        "description": "yur",
+        "description": "hamburgesa",
         "ID": 9,
         "source": "https://www.kaufmanmusiccenter.org/images/uploads/news/1LH-PRINCE-WILLIAM-CG-SPECIAL-INSTRUMENT-600x750.jpg"
     },
     {
     "name" : "Biwa",
         "price": 99.99,
-        "description": "",
+        "description": "hotdog",
         "ID": 10,
         "source": "https://blog.promolta.com/wp-content/uploads/2016/04/biwaimage1.jpeg"
     },
     {
     "name" : "Lute",
         "price": 99.99,
-        "description": "yur",
+        "description": "hawtdwag",
         "ID":11,
         "source": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/500554/1023989/main-image"
     },
     {
     "name" : "Sanshin",
         "price": 369.99,
-        "description": "yur",
+        "description": "snoop dawg",
         "ID": 12,
         "source": "http://media.discovernikkei.org/events/5079/strings-of-ryukyu-sanshin_JPG_200x200_q85.jpg"
     }

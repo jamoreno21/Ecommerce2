@@ -10,6 +10,9 @@ const Filter =(props) => (
             <option value = '0'></option>
             <option value = '1'>Price: Low To High</option>
             <option value = '2'>Price: High to Low</option>
+            <option value = '3'>Alphabetical: A to Z</option>
+            <option value = '4'>Alphabetical: Z to A</option>
+
         </select>
 
     </div>
