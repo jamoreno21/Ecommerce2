@@ -7,7 +7,7 @@ const Filter =(props) => (
     <div>
         <label>Sort by: </label>
         <select onChange = {e => props.change(e.target.value)} className = {classes.DropDown}>
-            <option value = '0'></option>
+            <option value = '0'>None</option>
             <option value = '1'>Price: Low To High</option>
             <option value = '2'>Price: High to Low</option>
             <option value = '3'>Alphabetical: A to Z</option>

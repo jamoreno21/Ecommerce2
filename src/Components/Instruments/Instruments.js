@@ -5,6 +5,8 @@ import FilterHigh from '../Filter/HightoLow/FilterHigh';
 import FilterLow from '../Filter/LowtoHigh/FilterLow';
 import AtoZ from '../Filter/AtoZ/AtoZ';
 import ZtoA from '../Filter/ZtoA/ZtoA';
+import Products from '../../containers/Musical/Products/Products';
+
 const Instruments = (props) => {
 
         switch(props.filter){
@@ -15,15 +17,14 @@ const Instruments = (props) => {
                 FilterHigh(props)
                 break;
             case '3':
-                AtoZ(props)
+                AtoZ(props.Data)
                 break;
             case '4':
-                ZtoA(props)
+                ZtoA(props.Data)
                 break;
             default:
                 break;
         }
-
     
     const allProducts = props.Data.map(instrument => {
         return (

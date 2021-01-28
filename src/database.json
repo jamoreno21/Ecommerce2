@@ -7,23 +7,23 @@
         "source": "https://cdn.shopify.com/s/files/1/1150/3636/products/website_instruments-08-02.jpg?v=1584393"
     },
     {
-    "name" : "Autistic Guitar",
+    "name" : "Acoustic Guitar",
         "price": 130.99,
-        "description": "yurrrrr",
+        "description": "The Acoustic Guitar is best known for it's natrual ability to amplify the sound waves produced from the guitar. From struming chords to plucking strings the sounds stand above like none else.",
         "ID": 2,
-        "source": "https://images-na.ssl-images-amazon.com/images/I/81itdej9OJL._AC_SL1500_.jpg"
+        "source": "https://www.guitaristroz.com/wp-content/uploads/2018/07/Jasmine-S34C-NEX-300x300.jpg"
     },
     {
-    "name" : "Autistic Bass",
+    "name" : "Acoustic Bass",
         "price": 132.99,
-        "description": "uhhh",
+        "description": "Acoustic basses are very popular with many players who use them for practice, acoustic jamming and even some performance scenarios.",
         "ID": 3,
-        "source": "https://numusician.com/wp-content/uploads/2019/12/DAngelico-Premier-Series-Mott-Acoustic-Bass.jpg"
+        "source": "https://m.media-amazon.com/images/I/71T-IaaUEZL._AC_SS350_.jpg"
     },
     {
     "name" : "Banjo",
         "price": 169.99,
-        "description": "mfff uhhhhhhhh",
+        "description": "Often associated with American old-time music, traditional jazz, and country or folk music such as Bluegrass.",
         "ID": 4,
         "source": "https://banjo.com/wp-content/uploads/2017/04/nechville-vintage-banjo.jpg"
     },
@@ -53,35 +53,35 @@
         "price": 549.99,
         "description": "The lowest-pitched member of the violin family, sounding an octave lower than the cello. It varies considerably in size, the largest normally being under 6 feet (1.8 metres) in total length.",
         "ID": 8,
-        "source": "https://cdn.mos.cms.futurecdn.net/d526a3fbb7c860ec776c1fdbe7177828.jpg"
+        "source": "https://m.media-amazon.com/images/I/31dqcJMRWEL._AC_SS350_.jpg"
     },
     {
     "name" : "Harp",
         "price": 44.99,
-        "description": "hamburgesa",
+        "description": "Although not often common of being a popular instrument. The harp is best known for the harmonic and almost angelic sounds it produces.",
         "ID": 9,
         "source": "https://www.kaufmanmusiccenter.org/images/uploads/news/1LH-PRINCE-WILLIAM-CG-SPECIAL-INSTRUMENT-600x750.jpg"
     },
     {
     "name" : "Biwa",
         "price": 99.99,
-        "description": "hotdog",
+        "description": " The Biwa is the chosen instrument of Benten, goddess of music, eloquence, poetry, and often used in narrative storytelling. Very popular after its appearance in the popular anime Demon Slayer. ",
         "ID": 10,
         "source": "https://blog.promolta.com/wp-content/uploads/2016/04/biwaimage1.jpeg"
     },
     {
     "name" : "Lute",
         "price": 99.99,
-        "description": "hawtdwag",
+        "description": "The lute was the instrument of kings and queens, playing the sublime music of great composers. The lute was heard in the theatre in the incidental music of Shakespeare's plays.",
         "ID":11,
         "source": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/500554/1023989/main-image"
     },
     {
     "name" : "Sanshin",
         "price": 369.99,
-        "description": "snoop dawg",
+        "description": "The Sanshin is considered the soul of Okinawan folk music. It is the center of small informal family gatherings, weddings, birthdays, other celebrations, community parties, festivals.",
         "ID": 12,
-        "source": "http://media.discovernikkei.org/events/5079/strings-of-ryukyu-sanshin_JPG_200x200_q85.jpg"
+        "source": "https://i.ebayimg.com/thumbs/images/g/tT8AAOSwAvJW-iuf/s-l300.jpg"
     }
 
     ]
