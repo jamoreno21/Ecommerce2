@@ -22,9 +22,9 @@ class home extends Component {
         }
 
         else {
-            let fistImg = 0
-            let firstPic = this.state.pic[0]
-            this.setState({ currentPic: fistImg, currentPic: firstPic })
+            let fist = 0
+            let firstImg = this.state.pic[0]
+            this.setState({ currentPic: fist, imgShown: firstImg })
         }
     }
 
@@ -32,13 +32,13 @@ class home extends Component {
 
         if (this.state.currentPic >= 1) {
             let nextPic = this.state.currentPic - 1
-            let lastInstru = this.state.lastInstru[nextPic]
-            this.setState({ currentPic: nextPic, currentPic: lastInstru })
+            let lastImg = this.state.lastInstru[nextPic]
+            this.setState({ currentPic: nextPic, imgShown: lastImg })
         }
         else {
             let firstPic = 2
             let firstInstru = this.state.pic[0]
-            this.setState({currentPic: firstPic, currentPic: firstInstru})
+            this.setState({currentPic: firstPic, imgShown: firstInstru})
         }
     }
     render() {
