@@ -16,6 +16,10 @@
     .SideDrawer {
       display: none;
     }
+
+    .NavItem {
+      font-size: large;
+    }
   }
   
   .Open {

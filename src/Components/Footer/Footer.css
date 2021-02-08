@@ -2,7 +2,7 @@
     width: 100%;
     vertical-align: middle;
     background-color: black;
-    height: 300px;
+    height: 100px;
     margin-top: 5em;
     color: white;
     display: table;
@@ -12,31 +12,23 @@
   
   .inner-footer a {
     color: white;
-    display: inline-block;
+    /* display: inline-block; */
   }
   
   i {
     font-size: 17px;
     text-align: center;
     padding: 0px 6px;
-    display: inline-block;
   }
-  
-  .logo {
-    height: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  
+
   .logo img {
     height: 70px;
-    margin: 2em;
-  
-    vertical-align: middle;
+    float: left;
+    padding-left: 30px;
   }
   
   i:hover {
-    color: red;
+    color: blue;
   }
   
   .footerContent {

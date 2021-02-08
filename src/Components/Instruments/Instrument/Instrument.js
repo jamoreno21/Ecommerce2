@@ -11,8 +11,8 @@ const instruments = (props) => {
 
             <ul className={classes.Content}>
 
-                <li className={classes.name}>{props.Name}</li>
-                <li className={classes.price}>{props.price}</li>
+                <li className={classes.name}><b>{props.Name}</b></li>
+                <li className={classes.price}>${props.Price}</li>
                 <li className={classes.description}>{props.Description}</li>
                 <button className={classes.Button}>Add to Cart</button>
 

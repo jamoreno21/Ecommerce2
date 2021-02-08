@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import Auxilliary from '../../hoc/Auxilliary';
 import classes from './Layout.module.css';
-import Toolbar from '../Navigation/Toolbar/Toolbar'
-import SideDrawer from '../Navigation/SideDrawer/SideDrawer'
+import Toolbar from '../Navigation/Toolbar/Toolbar';
+import SideDrawer from '../Navigation/SideDrawer/SideDrawer';
+import Footer from '../Footer/Footer';
 
 
 
@@ -33,7 +34,9 @@ render(){
                 <main className = {classes.Content}>
                     {this.props.children}
                 </main>
+                <Footer /> 
             </Auxilliary>
+           
         )
     };
 

@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
-import Navigation from '../../../Components/Navigation/Navbar';
 import Slider from '../../../Components/Navigation/Slider/Slider';
-import database from '../../../database.json';
-import Footer from '../../../Components/Footer/Footer';
-
+import data  from '../../../Components/External/External';
+import { Link } from 'react-router-dom'; 
 
 class home extends Component {
 
     state = {
-        pic: database.slider,
+        pic: data.slider,
         currentPic: 0,
-        imgShown: database.slider[0]
+        imgShown: data.slider[0]
     }
     //Creating slideshow arrows
     forwardHandler = () => {
@@ -44,16 +42,15 @@ class home extends Component {
     render() {
         return (
             <div>
-                <Navigation />
                 <header className= "header-container">
                     <div className="Hero">
                         <div className="heroTxt">
-                         <p>Welcome to a whole new world of Sounds!!</p>
-                             <link to="/products">
+                         <h1>Welcome to a whole new world of Sounds!!</h1>
+                             <Link to="/products">
                                  <button type='button' className="btn">
                                      View our products
                                  </button>
-                             </link>
+                             </Link>
                         </div>
                     </div>
                 </header>
@@ -65,12 +62,20 @@ class home extends Component {
                     <Slider 
                     forwardHandler={this.forwardHandler}
                     backHandler={this.backHandler}
-                    pic={this.pic}
+                    pic={this.state.imgShown}
                     />
-                    
+                     <br></br>
+                     <br></br>
+                     <br></br>
+                     <br></br>
+                     <br></br>
+                     <br></br> 
+                     <br></br>
+                     <br></br>
+                     <br></br>
                 </div>
-                <Footer />
             </div>
+           
         )
     }
 }

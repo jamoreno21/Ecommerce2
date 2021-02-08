@@ -1,6 +1,5 @@
+import classes from './Contact.module.css';
 import React, { Component } from 'react';
-import Navagation from '../../../Components/Navigation/Navbar';
-import Footer from '../../../Components/Footer/Footer';
 
 class Contact extends Component {
 
@@ -30,51 +29,49 @@ class Contact extends Component {
     render() {
         return (
             <div>
-                <Navagation/>
-                <div className='Form'>
+                <div className={classes.form}>
                     <form name="form" onSubmit={this.submitHandler}>
                         <div id="contact-heading">
                             <h1>Contact Us</h1>
                         </div>
-                        <div id="contact-box">
+                        <div className={classes.contactBox}>
                             <div></div>
-                            <div className="contact">
+                            <div className={classes.contact}>
                                 <label>
                                     First Name <br />
                                     <input type="text" name="firstname" placeholder="First Name" />
                                 </label>
                             </div>
-                            <div className="contact">
+                            <div className={classes.contact}>
                                 <label>
                                     Last Name <br />
                                     <input type="text" name="lastname" placeholder="Last Name" />
                                 </label>
                             </div>
-                            <div className="contact">
+                            <div className={classes.contact}>
                                 <label>
                                     Email <br />
                                     <input type="email" name="email" placeholder="Email" />
                                 </label>
                             </div>
-                            <div className="contact">
+                            <div className={classes.contact}>
                                 <label>
                                     Phone Number <br />
                                     <input type="text" name="phone" placeholder="(XXX)-XXX-XXXX" />
                                 </label>
                             </div>
-                            <div className="contact">
+                            <div className={classes.contact}>
                                 <label
                                 >Comments <br />
                                     <textarea placeholder="Comments?"></textarea>
                                 </label>
                             </div>
                             <div>
-                                <input type="submit" />
+                                <button className={classes.btn}>Submit!</button>
                             </div>
                         </div>
                     </form>
                 </div>
-                <Footer />
             </div>
         )
     }

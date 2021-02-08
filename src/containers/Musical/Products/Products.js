@@ -37,7 +37,7 @@ class Products extends Component {
                         <Filter change = {this.filterHandler} className = {classes.Filter}/>
                         {/* <div className={classes.Filter}></div> */}
                         <Instruments filter = {this.state.filter} Data={this.state.items} />
-                        <div className={classes.ItemSummary}>Cart </div>
+                        {/* <div className={classes.ItemSummary}>Cart </div> */}
                     </div>
                 </Auxiliry>
             )

@@ -1,5 +1,5 @@
 import React from 'react'
-import './Footer.module.css'
+import './Footer.css'
 
 const Footer = () => {
   return (
@@ -10,19 +10,19 @@ const Footer = () => {
         <p className="footerContent">
           <div className="logo">
             <img
-              src="..."
+              src="https://i.pinimg.com/originals/b1/7d/73/b17d737dffa5f3dbc75edcbd952a981d.jpg"
               alt="logo"
             />
           </div>
-            Copyright &copy; 2020 JAMin out Inc. <br />
+            Copyright &copy; 2021 JAMin out Inc. <br />
           <a
             href="https://www.facebook.com"
             target="Facebook"
-          >facebook<i className="facebook"></i
+          ><i className="facebook"></i
           >Facebook</a>
           <a href="https://twitter.com" target="Twitter"><i className="twitter"></i>Twitter</a>
           <a
-            href="https://www.instagram.com" target="Instagram" >instagram<i className="instagram"></i>Instagram</a>
+            href="https://www.instagram.com" target="Instagram" ><i className="instagram"></i>Instagram</a>
         </p>
         <br />
       </div>
