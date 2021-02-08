@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Auxilliary from '../../hoc/Auxilliary';
 import classes from './Layout.module.css';
 import Toolbar from '../Navigation/Toolbar/Toolbar'
-// import SideDrawer from '../Navigation/SideDrawer/SideDrawer'
+import SideDrawer from '../Navigation/SideDrawer/SideDrawer'
 
 
 
@@ -27,9 +27,9 @@ render(){
     return(
             <Auxilliary>
                 <Toolbar drawerToggleClicked ={this.sideDrawerToggleHandler}/>
-                {/* <SideDrawer 
+                <SideDrawer 
                 closed = {this.sideDrawerClosedHandler} 
-                open = {this.state.showSideDrawer}/> */}
+                open = {this.state.showSideDrawer}/>
                 <main className = {classes.Content}>
                     {this.props.children}
                 </main>

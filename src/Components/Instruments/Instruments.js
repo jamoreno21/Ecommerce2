@@ -5,7 +5,7 @@ import FilterHigh from '../Filter/HightoLow/FilterHigh';
 import FilterLow from '../Filter/LowtoHigh/FilterLow';
 import AtoZ from '../Filter/AtoZ/AtoZ';
 import ZtoA from '../Filter/ZtoA/ZtoA';
-import Products from '../../containers/Musical/Products/Products';
+// import Products from '../../containers/Musical/Products/Products';
 
 const Instruments = (props) => {
 

@@ -1,7 +1,6 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
 
-
-class Checkout extends Component{
+class checkOut extends Component{
 
 
     render(){
@@ -9,9 +8,9 @@ class Checkout extends Component{
 
         return (
 
-            <div>Home</div>
+            <div className='Soon'>COMING SOON!</div>
         )
     }
 }
 
-export default Checkout;
+export default checkOut;

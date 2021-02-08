@@ -1,0 +1,46 @@
+.inner-footer {
+    width: 100%;
+    vertical-align: middle;
+    background-color: black;
+    height: 300px;
+    margin-top: 5em;
+    color: white;
+    display: table;
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 20px;
+  }
+  
+  .inner-footer a {
+    color: white;
+    display: inline-block;
+  }
+  
+  i {
+    font-size: 17px;
+    text-align: center;
+    padding: 0px 6px;
+    display: inline-block;
+  }
+  
+  .logo {
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .logo img {
+    height: 70px;
+    margin: 2em;
+  
+    vertical-align: middle;
+  }
+  
+  i:hover {
+    color: red;
+  }
+  
+  .footerContent {
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+  }

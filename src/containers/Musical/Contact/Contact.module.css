@@ -1,0 +1,31 @@
+*{
+    height: 100vh;
+  }
+  
+  .Form {
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5%;
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .contact {
+    display: block;
+    padding: 20px;
+    border: none;
+  }
+  
+  .contact label {
+    display: block;
+  }
+   
+  .contact input {
+    height: 20px;
+    width: 25%;
+  }
+  
+  .contact textarea {
+    height: 100px;
+    width: 25%;
+  }
