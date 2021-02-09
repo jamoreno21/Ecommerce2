@@ -39,12 +39,9 @@
     width: 90vw;
     background-position: center;
     background-size: auto;
+    border-radius: 30px;
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ; */
 }
-/* .Name{
-    font-weight: bold;
-    text-decoration: none;
-    ;
-} */
 
 @media only screen and (max-width: 800px) {
     

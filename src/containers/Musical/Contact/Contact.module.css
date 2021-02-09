@@ -1,16 +1,20 @@
 
   .form {
     margin-top: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: monospace;
     padding: 5%;
     vertical-align: middle;
     text-align: center;
   }
-  
+  h2{
+    font-size: 30px;
+    font-family: monospace;
+  }
   .contact {
     display: block;
     padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: monospace;
+    font-size: 20px;
   }
   
   .contact label {
@@ -27,11 +31,18 @@
     width: 25%;
   }
 
-  .btn{
-      height: 30px;
-      width:80px;
-      border-radius: 5px;
+   .btn{
+      height: 40px;
+      width: 200px;
+      border-radius: 20px;
+      background-color: black;
+      font-size: 20px;
+      color: #00b0bf;
+      cursor: pointer;
+      box-shadow:3px 3px gray;
+      transition: 0.3s;
   }
+
 
   @media only screen and (max-width: 600px) {
     .contact input {

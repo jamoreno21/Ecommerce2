@@ -14,7 +14,7 @@ const Footer = () => {
               alt="logo"
             />
           </div>
-            Copyright &copy; 2021 JAMin out Inc. <br />
+            Copyright &copy; 2021 JAMin Out <br />
           <a
             href="https://www.facebook.com"
             target="Facebook"

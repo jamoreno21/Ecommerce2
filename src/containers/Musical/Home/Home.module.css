@@ -4,10 +4,27 @@ body{
     height: 100vh;
     text-decoration: none;
 }
-
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 30%;
+}
 button{ 
+    margin-top: 20px;
     justify-items: center;
-    color: blueviolet;
+    color: #00d2ff;
+    background-color: black;
     margin-left: 35%;
     margin-right: 35%;
+}
+
+button:hover{
+    box-shadow:5px 5px gray;
+    transition: 0.5s ease-in-out; 
+}
+
+@media only screen and (max-width: 800px) {
+    h1{
+        font-family: cursive;
+        padding-left: 10%;
+    }
 }

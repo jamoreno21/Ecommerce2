@@ -21,7 +21,7 @@ class checkOut extends Component {
                 <br></br>
 
                 <div className={classes.heroTxt}>
-                    <h1>COMMING SOON!!</h1>
+                    <h4>COMMING SOON!!</h4>
                 </div>
 
                 <br></br>

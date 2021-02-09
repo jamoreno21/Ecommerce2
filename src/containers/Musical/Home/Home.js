@@ -58,12 +58,7 @@ class home extends Component {
                      <br></br>
                      <br></br>
                      <br></br>
-                     <br></br>
-                     <br></br>
-                     <br></br> 
-                     <br></br>
-                     <br></br>
-                     <br></br>
+                     
                 </div>   
         )
     }

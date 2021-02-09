@@ -32,7 +32,7 @@ class Contact extends Component {
                 <div className={classes.form}>
                     <form name="form" onSubmit={this.submitHandler}>
                         <div id="contact-heading">
-                            <h1>Contact Us</h1>
+                            <h2>Contact Us</h2>
                         </div>
                         <div className={classes.contactBox}>
                             <div></div>
