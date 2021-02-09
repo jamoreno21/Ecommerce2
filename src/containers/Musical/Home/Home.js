@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Slider from '../../../Components/Navigation/Slider/Slider';
 import data  from '../../../Components/External/External';
-import { Link } from 'react-router-dom'; 
+import classes from './Home.module.css'
 
 class home extends Component {
 
@@ -30,34 +30,25 @@ class home extends Component {
 
         if (this.state.currentPic >= 1) {
             let nextPic = this.state.currentPic - 1
-            let lastImg = this.state.lastInstru[nextPic]
-            this.setState({ currentPic: nextPic, imgShown: lastImg })
+            let nextInstru = this.state.pic[nextPic]
+            this.setState({ currentPic: nextPic, imgShown: nextInstru })
         }
         else {
-            let firstPic = 2
-            let firstInstru = this.state.pic[0]
-            this.setState({currentPic: firstPic, imgShown: firstInstru})
+            let nextPic = 2
+            let nextInstru = this.state.pic[0]
+            this.setState({currentPic: nextPic, imgShown: nextInstru})
         }
     }
     render() {
         return (
             <div>
-                <header className= "header-container">
-                    <div className="Hero">
-                        <div className="heroTxt">
+                <header className= {classes.headerContainer}>
+                    <div className={classes.hero}>
+                        <div className={classes.heroTxt}>
                          <h1>Welcome to a whole new world of Sounds!!</h1>
-                             <Link to="/products">
-                                 <button type='button' className="btn">
-                                     View our products
-                                 </button>
-                             </Link>
                         </div>
                     </div>
                 </header>
-
-
-                <div className="instruments">
-                    <h1>Featured Items</h1>
 
                     <Slider 
                     forwardHandler={this.forwardHandler}
@@ -73,9 +64,7 @@ class home extends Component {
                      <br></br>
                      <br></br>
                      <br></br>
-                </div>
-            </div>
-           
+                </div>   
         )
     }
 }

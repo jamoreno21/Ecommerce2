@@ -1,15 +1,21 @@
 .Name{
-    padding-right: 5px;
-
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 20px;
 }
+.content{
+    list-style: none;
+    align-content: center;
+    justify-content: center;
+}
+
 .Forward{
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 8px;
     padding-bottom: 8px;
     font-size: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 10%;
     border-radius: 5em;
     border-color: black;
 }
@@ -20,8 +26,47 @@
     padding-top: 8px;
     padding-bottom: 8px;
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 35%;
     margin-right: 10px;
     border-radius: 5em;
     border-color: black;
+}
+
+.Image {
+    margin-left: auto;
+    margin-right: auto;
+    height: 80vh;
+    width: 90vw;
+    background-position: center;
+    background-size: auto;
+}
+/* .Name{
+    font-weight: bold;
+    text-decoration: none;
+    ;
+} */
+
+@media only screen and (max-width: 800px) {
+    
+    .Image {
+        height: 70vh;
+        background-position: center;
+        background-size: auto;
+    }
+    .Forward{
+        margin-left: 35%;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .Image {
+        margin-left: auto;
+        margin-right: auto;
+        height: 30vh;
+        background-position: center;
+        background-size: auto;
+    }
+    
 }

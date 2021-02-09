@@ -93,26 +93,17 @@
         {
             "name" : "Harp",
                 "description": "Shown is Mrs. Joanna Newson, playing the instrument best seens at the symbol of the heavens, the one, the only, the beatiful Harp.",
-                "ID": 1,
                 "source": "https://redtreetimes.files.wordpress.com/2012/02/joanna-newsom.jpg"
             },
             {
             "name" : "Biwa",
                 "description": "Although not known worldwide, the Biwa began gaining the intrest of many after it was shown on the famous Japanese Anime: Kimetsu no Yaiba, or as its more famously known: Demon Slayer.",
-                "ID": 2,
                 "source": "https://www.takerlama.com/u_file/2009/photo/3a2066baba.jpg"
             },
             {
             "name" : "Banjo",
-                "description": "Featured is Gandpa Jones playing the well known Banjo. Countless hits such as Foggy Mountian, Old Man, The Great Remember, and a banjo Cover of Thinderstruck.",
-                "ID":3,
+                "description": "Featured is Gandpa Jones playing the well known Banjo. Countless hits such as Foggy Mountian, Old Man, The Great Remember, and a banjo Cover of Thunderstruck.",
                 "source": "https://thebluegrasssituation.com/wp-content/uploads/2017/08/grandpajones.jpg"
-            },
-            {
-                "name" : "Violin",
-                    "description": "Featured is the legendary Japanese Violinist Goto, Midori",
-                    "ID": 4,
-                    "source": "https://www.wamc.org/sites/wamc/files/styles/medium/public/201804/homeBackingB.jpg"
-                }
+            }
     ]
 }
